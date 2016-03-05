@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Auto Map Tutorial</title>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+        <script src="scripts/angularAutoMap.min.js"></script>
+        <script src="scripts/app.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+    </head>
+    <body>
+        <div ng-app="ngAutoMapTuts">
+            <div class="siteName">
+                Angular Auto Map Example
+                <div>
+                    <input class="address-box" id="searchTextField" google-address-suggestion ng-focus="mv.geolocate()" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

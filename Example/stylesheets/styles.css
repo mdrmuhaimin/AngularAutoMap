@@ -1,0 +1,19 @@
+body{
+    margin:0;
+    background:#FFFFFF;
+}
+.siteName {
+    padding-top: 15%;
+    width:960px;
+    margin:0 auto;
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.address-box {
+    padding: 5px;
+    width:400px;
+    height:30px;
+    border: 1px solid #CCC;
+    margin: 20px auto;
+}

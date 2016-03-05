@@ -1,0 +1,22 @@
+{
+  "name": "AngularAutoMapTuts",
+  "authors": [
+    "Muhammad Muhaimin <muhammad.r.muhaimin@gmail.com>"
+  ],
+  "description": "Tutorial on how to use Angular Auto Map",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0"
+  }
+}
