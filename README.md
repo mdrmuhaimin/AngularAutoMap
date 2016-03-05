@@ -4,6 +4,10 @@
 
         google-address-suggestion ng-focus="mv.geolocate()"
     
-    Example: 
-    
+Example: 
+
         <input id="searchTextField" google-address-suggestion ng-focus="mv.geolocate()" />
+
+[Live Demo](http://mdrmuhaimin.github.io/AngularAutoMap/)
+    
+        
