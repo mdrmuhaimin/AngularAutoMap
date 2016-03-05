@@ -20,7 +20,7 @@
       return;
     }
 
-    autocomplete = new google.maps.places.Autocomplete(document.getElementById('searchTextField'), options);
+    var autocomplete = new google.maps.places.Autocomplete(document.getElementById('searchTextField'), options);
     autocomplete.addListener('place_changed', updateLocationData);
 
     function updateLocationData(){
