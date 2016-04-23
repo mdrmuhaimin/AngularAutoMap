@@ -2,7 +2,7 @@
  * @author Muhammad Muhaimin
  */
 
-"use restrict";
+"use strict";
 
 (function(){
   angular.module('autoCompleteAddress', []);
