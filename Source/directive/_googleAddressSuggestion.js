@@ -2,9 +2,9 @@
  * @author Muhammad Muhaimin
  */
 
-"use restrict";
 
 (function(){
+  "use strict";
   angular.module('autoCompleteAddress').directive('googleAddressSuggestion', [ function() {
     return {
       restrict : 'A',
